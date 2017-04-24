@@ -1,7 +1,7 @@
 ---
-title: about
+title: About
 layout: template
-filename: about.md
+filename: about
 ---
 
 ## How to Use Book Plotter
