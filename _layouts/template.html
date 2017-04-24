@@ -5,12 +5,9 @@
 	</head>
 	<body>
 		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/structure">Structure</a></li>
-        		<li><a href="/examples">Examples</a></li>
-    		</ul>
+			{% for page in site.pages %}
+    		<a href={{ page.filename }}>{{ page.title }}</a>
+			{% endfor %}        		
 		</nav>
 		<div class="container">
 
